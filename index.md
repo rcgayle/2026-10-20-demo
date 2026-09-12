@@ -439,9 +439,10 @@ of code below the Schedule `<h5>` header below with
 
 
 
-
+<br><br>
 <div class="card mb-2">
-  <h5 class="card-header"><b>Schedule</b> - when available specific hours in PDT </h5>
+  <h5 class="card-header"><b>Schedule</b> - when they become available, specific hours PDT</h5>
+  <br><br>
   {% include custom-schedule.html %}
 </div>
 

@@ -444,7 +444,6 @@ of code below the Schedule `<h5>` header below with
   <h5 class="card-header"><b>Schedule</b> - when they become available, specific hours PDT</h5>
   {% include custom-schedule.html %}
 
-<hr/>
 
 {% comment %}
 SETUP

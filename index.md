@@ -407,72 +407,12 @@ We will use this <a href="{{ page.collaborative_notes }}">collaborative document
 {% endif %}
 
 
-{% comment %}
-SURVEYS - DO NOT EDIT SURVEY LINKS
-{% endcomment %}
-<div class="card mb-2">
-  <h5 class="card-header">Surveys</h5>
-  <div class="card-body">
-    <div class="row">
-    <div class="col-sm-6">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title">Pre-Workshop Survey</h5>
-                <p class="card-text">Please fill out this survey <strong>before attending</strong> the workshop.</p>
-                {% if site.carpentry == "incubator" %}
-                <a href="{{ site.incubator_pre_survey }}">Pre-workshop Survey</a>
-                {% elsif site.incubator_pre_survey %}
-                <div class="alert alert-danger">
-                WARNING: you have defined custom pre- and/or post-survey links for
-                a workshop not configured for The Carpentries Incubator
-                (the value of `curriculum` is not set to `incubator` in `_config.yml`).
-                Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields
-                in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
-                change the value of `carpentry` to `incubator`.
-                </div>
-                {% elsif site.carpentry == "hpcc" %}
-                <a href="{{ site.hpcc_pre_survey }}{{ site.github.project_title }}" class="btn btn-primary">Fill Out the Pre-Workshop Survey</a>
-                {% else %}
-                <a href="{{ site.pre_survey }}{{ site.github.project_title }}" class="btn btn-primary">Fill Out the Pre-Workshop Survey</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    <div class="col-sm-6">
-        <div class="card text-center">
-            <div class="card-body">
-                <h5 class="card-title">Post-Workshop Survey</h5>
-                <p class="card-text">Please fill out this survey <strong>before you leave</strong> the workshop.</p>
-                {% if site.carpentry == "incubator" %}
-                <a href="{{ site.incubator_post_survey }}">Post-workshop Survey</a>
-                {% elsif site.incubator_post_survey %}
-                <div class="alert alert-danger">
-                WARNING: you have defined custom pre- and/or post-survey links for
-                a workshop not configured for The Carpentries Incubator
-                (the value of `curriculum` is not set to `incubator` in `_config.yml`).
-                Please comment out the `incubator_pre_survey` and `incubator_post_survey` fields
-                in `_config.yml` or, if this workshop is teaching a lesson in the Incubator,
-                change the value of `carpentry` to `incubator`.
-                </div>
-                {% elsif site.carpentry == "hpcc" %}
-                <a href="{{ site.hpcc_post_survey }}{{ site.github.project_title }}" class="btn btn-primary">Fill Out the Pre-Workshop Survey</a>
-                {% else %}
-                <a href="{{ site.post_survey }}{{ site.github.project_title }}" class="btn btn-primary">Fill Out the Post-Workshop Survey</a>
-                {% endif %}
-            </div>
-        </div>
-    </div>
-    </div>
-  </div>
-</div>
 
 
 
 
-<p><b>Pre-Workshop Set-Up and Installation:</b> August 3rd, 10.00-11.00 MDT</p>
 
-<p>The Zoom link for our workshop is <a href="https://carpentries.zoom.us/my/carpentriesroom3">here</a>.</p>
-
+<p><b>Pre-Workshop Set-Up and Installation:</b>TBA</p>
 
 {% comment %}
 

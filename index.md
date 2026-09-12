@@ -436,14 +436,14 @@ of code below the Schedule `<h5>` header below with
 `{% include custom-schedule.html %}`.
 {% endcomment %}
 
-<div></div>
+
 
 
 
 <div class="card mb-2">
   <h5 class="card-header"><b>Schedule</b> - when available specific hours in PDT </h5>
   {% include custom-schedule.html %}
-
+</div>
 
 <hr/>
 
